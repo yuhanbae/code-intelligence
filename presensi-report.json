@@ -1,0 +1,1459 @@
+{
+  "metadata": {
+    "tool": "CodeIntelligence",
+    "version": "1.0.0",
+    "generated": "2026-11-12T18:33:18.315Z",
+    "engine": "agnes-2.5-flash"
+  },
+  "summary": {
+    "score": 0,
+    "grade": "F",
+    "total_findings": 177,
+    "critical": 36,
+    "medium": 128,
+    "low": 8,
+    "informational": 5,
+    "recommendation": "High risk. Block release until critical and high findings are resolved."
+  },
+  "statistics": {
+    "files": 1776,
+    "lines": 1327939,
+    "languages": {
+      "other": 1611,
+      "bash": 64,
+      "markdown": 20,
+      "html": 37,
+      "c": 3,
+      "javascript": 7,
+      "json": 12,
+      "python": 19,
+      "yaml": 1,
+      "css": 2
+    },
+    "dependencies": 0,
+    "commitCount": 0,
+    "branchCount": 0,
+    "hasTests": false,
+    "hasLicense": false,
+    "hasReadme": false
+  },
+  "findings": [
+    {
+      "file": ".gkc",
+      "line": 1,
+      "severity": "high",
+      "category": "security",
+      "description": "Private key material in source",
+      "snippet": "private_key"
+    },
+    {
+      "file": ".j94",
+      "line": 9,
+      "severity": "high",
+      "category": "security",
+      "description": "Potential SQL injection via string formatting",
+      "snippet": ".format(t),i),this}listenToAll(t){return this.subscription.bind_global((i,o)=>{if(i.startsWith(\"push"
+    },
+    {
+      "file": ".lpt",
+      "line": 1006,
+      "severity": "high",
+      "category": "security",
+      "description": "Potential SQL injection via string formatting",
+      "snippet": "\"select\":{\"rows\":{\"0\":\"\",\"_\":\": Selected %d"
+    },
+    {
+      "file": ".upk",
+      "line": 1006,
+      "severity": "high",
+      "category": "security",
+      "description": "Potential SQL injection via string formatting",
+      "snippet": "\"select\":{\"rows\":{\"0\":\"\",\"_\":\": Selected %d"
+    },
+    {
+      "file": "FINDINGS_2026-11-04.md",
+      "line": 320,
+      "severity": "high",
+      "category": "security",
+      "description": "Private key material in source",
+      "snippet": "private key"
+    },
+    {
+      "file": "argon.js",
+      "line": 17,
+      "severity": "high",
+      "category": "security",
+      "description": "Potential SQL injection via string formatting",
+      "snippet": "f\",300:\"#dee2e6\",400:\"#ced4da\",500:\"#adb5bd\",600:\"#8898aa\",700:\"#525f7f\",800:\"#32325d\",900:\"#212529\""
+    },
+    {
+      "file": "mastris/libapp.so",
+      "line": 863,
+      "severity": "high",
+      "category": "security",
+      "description": "Potential SQL injection via string formatting",
+      "snippet": "F'��\u0010�PresensiRiwayatRepository.fetchRekap => invalid code �X\u0004C\u0004=\u0004��0�0�0�0�0�0�X�0Y0�_panGestureRec"
+    },
+    {
+      "file": "mastris/libflutter.so",
+      "line": 8035,
+      "severity": "high",
+      "category": "security",
+      "description": "Private key material in source",
+      "snippet": "PrivateKey"
+    },
+    {
+      "file": "mastris/libflutter.so",
+      "line": 8032,
+      "severity": "high",
+      "category": "security",
+      "description": "eval() — code injection risk",
+      "snippet": "eval("
+    },
+    {
+      "file": "mastris/libs/arm64-v8a/libapp.so",
+      "line": 863,
+      "severity": "high",
+      "category": "security",
+      "description": "Potential SQL injection via string formatting",
+      "snippet": "F'��\u0010�PresensiRiwayatRepository.fetchRekap => invalid code �X\u0004C\u0004=\u0004��0�0�0�0�0�0�X�0Y0�_panGestureRec"
+    },
+    {
+      "file": "mastris/libs/arm64-v8a/libflutter.so",
+      "line": 8035,
+      "severity": "high",
+      "category": "security",
+      "description": "Private key material in source",
+      "snippet": "PrivateKey"
+    },
+    {
+      "file": "mastris/libs/arm64-v8a/libflutter.so",
+      "line": 8032,
+      "severity": "high",
+      "category": "security",
+      "description": "eval() — code injection risk",
+      "snippet": "eval("
+    },
+    {
+      "file": "mastris/m.xapk",
+      "line": 87752,
+      "severity": "high",
+      "category": "security",
+      "description": "Private key material in source",
+      "snippet": "PrivateKey"
+    },
+    {
+      "file": "mastris/m.xapk",
+      "line": 206612,
+      "severity": "high",
+      "category": "security",
+      "description": "eval() — code injection risk",
+      "snippet": "eval("
+    },
+    {
+      "file": "mastris/m.xapk",
+      "line": 93043,
+      "severity": "high",
+      "category": "security",
+      "description": "Potential SQL injection via string formatting",
+      "snippet": "F'��\u0010�PresensiRiwayatRepository.fetchRekap => invalid code �X\u0004C\u0004=\u0004��0�0�0�0�0�0�X�0Y0�_panGestureRec"
+    },
+    {
+      "file": "mastris/mastris.apk",
+      "line": 87752,
+      "severity": "high",
+      "category": "security",
+      "description": "Private key material in source",
+      "snippet": "PrivateKey"
+    },
+    {
+      "file": "mastris/md/assets/flutter_assets/shaders/stretch_effect.frag",
+      "line": 400,
+      "severity": "high",
+      "category": "security",
+      "description": "eval() — code injection risk",
+      "snippet": "eval("
+    },
+    {
+      "file": "mastris/md/classes.dex",
+      "line": 50166,
+      "severity": "high",
+      "category": "security",
+      "description": "Private key material in source",
+      "snippet": "PrivateKey"
+    },
+    {
+      "file": "mastris/wa/assets/flutter_assets/shaders/stretch_effect.frag",
+      "line": 400,
+      "severity": "high",
+      "category": "security",
+      "description": "eval() — code injection risk",
+      "snippet": "eval("
+    },
+    {
+      "file": "mastris/wa/classes.dex",
+      "line": 50166,
+      "severity": "high",
+      "category": "security",
+      "description": "Private key material in source",
+      "snippet": "PrivateKey"
+    },
+    {
+      "file": "mastris/xz/config.arm64_v8a.apk",
+      "line": 114436,
+      "severity": "high",
+      "category": "security",
+      "description": "Private key material in source",
+      "snippet": "PrivateKey"
+    },
+    {
+      "file": "mastris/xz/config.arm64_v8a.apk",
+      "line": 114433,
+      "severity": "high",
+      "category": "security",
+      "description": "eval() — code injection risk",
+      "snippet": "eval("
+    },
+    {
+      "file": "mastris/xz/config.arm64_v8a.apk",
+      "line": 864,
+      "severity": "high",
+      "category": "security",
+      "description": "Potential SQL injection via string formatting",
+      "snippet": "F'��\u0010�PresensiRiwayatRepository.fetchRekap => invalid code �X\u0004C\u0004=\u0004��0�0�0�0�0�0�X�0Y0�_panGestureRec"
+    },
+    {
+      "file": "mastris/xz64/lib/arm64-v8a/libapp.so",
+      "line": 863,
+      "severity": "high",
+      "category": "security",
+      "description": "Potential SQL injection via string formatting",
+      "snippet": "F'��\u0010�PresensiRiwayatRepository.fetchRekap => invalid code �X\u0004C\u0004=\u0004��0�0�0�0�0�0�X�0Y0�_panGestureRec"
+    },
+    {
+      "file": "mastris/xz64/lib/arm64-v8a/libflutter.so",
+      "line": 8035,
+      "severity": "high",
+      "category": "security",
+      "description": "Private key material in source",
+      "snippet": "PrivateKey"
+    },
+    {
+      "file": "mastris/xz64/lib/arm64-v8a/libflutter.so",
+      "line": 8032,
+      "severity": "high",
+      "category": "security",
+      "description": "eval() — code injection risk",
+      "snippet": "eval("
+    },
+    {
+      "file": "openapi_llm.json",
+      "line": 1,
+      "severity": "high",
+      "category": "security",
+      "description": "Private key material in source",
+      "snippet": "private key"
+    },
+    {
+      "file": "openapi_llm.json",
+      "line": 1,
+      "severity": "high",
+      "category": "security",
+      "description": "AWS credential reference",
+      "snippet": "aws_access_key_id"
+    },
+    {
+      "file": "openapi_llm.json",
+      "line": 1,
+      "severity": "high",
+      "category": "security",
+      "description": "Potential SQL injection via string formatting",
+      "snippet": "f\":[{\"type\":\"boolean\"},{\"type\":\"null\"}],\"default\":false,\"title\":\"Return Wildcard Routes\"}},{\"name\":\""
+    },
+    {
+      "file": "openapi_recheck.json",
+      "line": 1,
+      "severity": "high",
+      "category": "security",
+      "description": "Private key material in source",
+      "snippet": "private key"
+    },
+    {
+      "file": "openapi_recheck.json",
+      "line": 1,
+      "severity": "high",
+      "category": "security",
+      "description": "AWS credential reference",
+      "snippet": "aws_access_key_id"
+    },
+    {
+      "file": "openapi_recheck.json",
+      "line": 1,
+      "severity": "high",
+      "category": "security",
+      "description": "Potential SQL injection via string formatting",
+      "snippet": "f\":[{\"type\":\"boolean\"},{\"type\":\"null\"}],\"default\":false,\"title\":\"Return Wildcard Routes\"}},{\"name\":\""
+    },
+    {
+      "file": "v_key.pem",
+      "line": 1,
+      "severity": "high",
+      "category": "security",
+      "description": "Private key material in source",
+      "snippet": "PRIVATE KEY"
+    },
+    {
+      "file": "vbr_index.js",
+      "line": 9,
+      "severity": "high",
+      "category": "security",
+      "description": "Hardcoded password detected",
+      "snippet": "Password=\"Password"
+    },
+    {
+      "file": "vbr_index.js",
+      "line": 9,
+      "severity": "high",
+      "category": "security",
+      "description": "Private key material in source",
+      "snippet": "privateKey"
+    },
+    {
+      "file": "vbr_index.js",
+      "line": 9,
+      "severity": "high",
+      "category": "security",
+      "description": "Potential SQL injection via string formatting",
+      "snippet": "f\",e.Json=\"Json\",e))(TF||{}),Tc=(e=>(e.All=\"All\",e.Instance=\"Instance\",e.Socket=\"Socket\",e))(Tc||{})"
+    },
+    {
+      "file": ".a1",
+      "line": 1016,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".a3a",
+      "line": 646,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": ".a3a",
+      "line": 517,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log(\"Token"
+    },
+    {
+      "file": ".a3b",
+      "line": 646,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": ".a3b",
+      "line": 517,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log(\"Token"
+    },
+    {
+      "file": ".a4a",
+      "line": 646,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": ".a4a",
+      "line": 517,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log(\"Token"
+    },
+    {
+      "file": ".a4b",
+      "line": 646,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": ".a4b",
+      "line": 517,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log(\"Token"
+    },
+    {
+      "file": ".a4c",
+      "line": 646,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": ".a4c",
+      "line": 517,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log(\"Token"
+    },
+    {
+      "file": ".a5",
+      "line": 393,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".c_a1",
+      "line": 156,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".c_a1b",
+      "line": 159,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".c_b",
+      "line": 31,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".c_c1",
+      "line": 1016,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".c_c2",
+      "line": 1016,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".c_kc",
+      "line": 156,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".c_ok",
+      "line": 393,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".gf_login",
+      "line": 234,
+      "severity": "medium",
+      "category": "security",
+      "description": "exec() with string argument",
+      "snippet": "exec(navigator.userAgent);\n\n          if (isIE && parseFloat(/Trident\\/([0-9.]+)/.exec(navigator.use"
+    },
+    {
+      "file": ".hm_baseline",
+      "line": 646,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": ".hm_baseline",
+      "line": 517,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log(\"Token"
+    },
+    {
+      "file": ".hm_cf_country",
+      "line": 646,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": ".hm_cf_country",
+      "line": 517,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log(\"Token"
+    },
+    {
+      "file": ".hm_clusterip",
+      "line": 646,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": ".hm_clusterip",
+      "line": 517,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log(\"Token"
+    },
+    {
+      "file": ".hm_fastly",
+      "line": 646,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": ".hm_fastly",
+      "line": 517,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log(\"Token"
+    },
+    {
+      "file": ".hm_forwarded",
+      "line": 646,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": ".hm_forwarded",
+      "line": 517,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log(\"Token"
+    },
+    {
+      "file": ".hm_proxyuser",
+      "line": 646,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": ".hm_proxyuser",
+      "line": 517,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log(\"Token"
+    },
+    {
+      "file": ".hm_trueclient",
+      "line": 646,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": ".hm_trueclient",
+      "line": 517,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log(\"Token"
+    },
+    {
+      "file": ".hm_xclientip",
+      "line": 646,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": ".hm_xclientip",
+      "line": 517,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log(\"Token"
+    },
+    {
+      "file": ".hm_xff",
+      "line": 646,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": ".hm_xff",
+      "line": 517,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log(\"Token"
+    },
+    {
+      "file": ".hm_xff_multi",
+      "line": 646,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": ".hm_xff_multi",
+      "line": 517,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log(\"Token"
+    },
+    {
+      "file": ".hm_xforwarded",
+      "line": 646,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": ".hm_xforwarded",
+      "line": 517,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log(\"Token"
+    },
+    {
+      "file": ".hm_xorig",
+      "line": 89,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".hm_xrealip",
+      "line": 646,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": ".hm_xrealip",
+      "line": 517,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log(\"Token"
+    },
+    {
+      "file": ".j94",
+      "line": 1,
+      "severity": "medium",
+      "category": "security",
+      "description": "exec() with string argument",
+      "snippet": "exec(t))!==null;)o.push(i);return o},Ti=ce(\""
+    },
+    {
+      "file": ".j94",
+      "line": 9,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log&&window.console.log(e)}}debug(...e){this.log(this.globalLog,e)}warn(...e){this.log(this."
+    },
+    {
+      "file": ".lb_ap",
+      "line": 646,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": ".lb_ap",
+      "line": 517,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log(\"Token"
+    },
+    {
+      "file": ".lb_g5",
+      "line": 383,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".lb_g6",
+      "line": 383,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".lbc",
+      "line": 156,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".lbp",
+      "line": 393,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".lpt",
+      "line": 603,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": ".opg",
+      "line": 646,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": ".opg",
+      "line": 517,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log(\"Token"
+    },
+    {
+      "file": ".p2b",
+      "line": 31,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".p2c1",
+      "line": 1016,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".p2c2",
+      "line": 1016,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".p2c3",
+      "line": 1016,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".p2kc",
+      "line": 156,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".p2ok",
+      "line": 393,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".p2s1b",
+      "line": 159,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".p2s1p",
+      "line": 156,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".p3K2b",
+      "line": 159,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".p3K2p",
+      "line": 156,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".p3Kb",
+      "line": 159,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".p3Kp",
+      "line": 156,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".p3Ub",
+      "line": 159,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".p3Up",
+      "line": 156,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".p3kc",
+      "line": 156,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".p3ok",
+      "line": 393,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".p3t1a",
+      "line": 31,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".p3t1b",
+      "line": 23,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".p3t1c",
+      "line": 31,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".p3t2",
+      "line": 380,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".shift_page",
+      "line": 646,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": ".shift_page",
+      "line": 517,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log(\"Token"
+    },
+    {
+      "file": ".si1",
+      "line": 31,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".si2",
+      "line": 31,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".si3",
+      "line": 31,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": ".u3",
+      "line": 646,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": ".u3",
+      "line": 517,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log(\"Token"
+    },
+    {
+      "file": ".u4",
+      "line": 646,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": ".u4",
+      "line": 517,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log(\"Token"
+    },
+    {
+      "file": ".upk",
+      "line": 603,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": ".vfpg",
+      "line": 646,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": ".vfpg",
+      "line": 517,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log(\"Token"
+    },
+    {
+      "file": ".w1",
+      "line": 623,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": ".w1",
+      "line": 494,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log(\"Token"
+    },
+    {
+      "file": "a3a.html",
+      "line": 646,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": "a3a.html",
+      "line": 517,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log(\"Token"
+    },
+    {
+      "file": "a3b.html",
+      "line": 646,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": "a3b.html",
+      "line": 517,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log(\"Token"
+    },
+    {
+      "file": "d_ok.html",
+      "line": 393,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": "d_root.html",
+      "line": 778,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": "d_root.html",
+      "line": 618,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log(\"Token"
+    },
+    {
+      "file": "inline_13.js",
+      "line": 133,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": "inline_13.js",
+      "line": 4,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log(\"Token"
+    },
+    {
+      "file": "inline_14.js",
+      "line": 1,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": "kc2.html",
+      "line": 156,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": "kc4.html",
+      "line": 156,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": "kc5.html",
+      "line": 156,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": "lembur.html",
+      "line": 380,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": "lembur_anon.html",
+      "line": 380,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": "mastris/md/assets/flutter_assets/packages/fluttertoast/assets/toastify.js",
+      "line": 14,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": "mastris/wa/assets/flutter_assets/packages/fluttertoast/assets/toastify.js",
+      "line": 14,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": "p2_ok.html",
+      "line": 393,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": "p2_root.html",
+      "line": 778,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": "p2_root.html",
+      "line": 618,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log(\"Token"
+    },
+    {
+      "file": "p_a.html",
+      "line": 646,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": "p_a.html",
+      "line": 517,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log(\"Token"
+    },
+    {
+      "file": "p_ok.html",
+      "line": 393,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": "p_root.html",
+      "line": 778,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": "p_root.html",
+      "line": 618,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log(\"Token"
+    },
+    {
+      "file": "pg2.html",
+      "line": 646,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": "pg2.html",
+      "line": 517,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log(\"Token"
+    },
+    {
+      "file": "s1_ok.html",
+      "line": 393,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": "s1_pg.html",
+      "line": 646,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": "s1_pg.html",
+      "line": 517,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log(\"Token"
+    },
+    {
+      "file": "shift.html",
+      "line": 646,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": "shift.html",
+      "line": 517,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log(\"Token"
+    },
+    {
+      "file": "vbr_index.js",
+      "line": 1,
+      "severity": "medium",
+      "category": "security",
+      "description": "exec() with string argument",
+      "snippet": "exec(t.trim()):void 0,a=s&&s.length>1?s[1]:void 0;return{data:e,fileName:a,status:i.status}}const c$"
+    },
+    {
+      "file": "vbr_index.js",
+      "line": 1,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log(i)});r(this,\"logError\",(i,t)=>{He(this,hp)&&(console.log(i),console.error(t))});var i;Xs"
+    },
+    {
+      "file": "ykc.html",
+      "line": 156,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": "yok.html",
+      "line": 393,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML="
+    },
+    {
+      "file": "ypg.html",
+      "line": 646,
+      "severity": "medium",
+      "category": "security",
+      "description": "innerHTML assignment (XSS vector)",
+      "snippet": ".innerHTML ="
+    },
+    {
+      "file": "ypg.html",
+      "line": 517,
+      "severity": "medium",
+      "category": "security",
+      "description": "Logging sensitive environment values",
+      "snippet": "console.log(\"Token"
+    },
+    {
+      "file": "mastris/libflutter.so",
+      "line": 7005,
+      "severity": "low",
+      "category": "security",
+      "description": "Overly permissive CORS configuration",
+      "snippet": "*:*"
+    },
+    {
+      "file": "mastris/libs/arm64-v8a/libflutter.so",
+      "line": 7005,
+      "severity": "low",
+      "category": "security",
+      "description": "Overly permissive CORS configuration",
+      "snippet": "*:*"
+    },
+    {
+      "file": "mastris/m.xapk",
+      "line": 7424,
+      "severity": "low",
+      "category": "security",
+      "description": "Overly permissive CORS configuration",
+      "snippet": "*:*"
+    },
+    {
+      "file": "mastris/mastris.apk",
+      "line": 7424,
+      "severity": "low",
+      "category": "security",
+      "description": "Overly permissive CORS configuration",
+      "snippet": "*:*"
+    },
+    {
+      "file": "mastris/xz/config.arm64_v8a.apk",
+      "line": 113406,
+      "severity": "low",
+      "category": "security",
+      "description": "Overly permissive CORS configuration",
+      "snippet": "*:*"
+    },
+    {
+      "file": "mastris/xz64/lib/arm64-v8a/libflutter.so",
+      "line": 7005,
+      "severity": "low",
+      "category": "security",
+      "description": "Overly permissive CORS configuration",
+      "snippet": "*:*"
+    },
+    {
+      "file": "openapi_llm.json",
+      "line": 1,
+      "severity": "low",
+      "category": "security",
+      "description": "Overly permissive CORS configuration",
+      "snippet": "*: *"
+    },
+    {
+      "file": "openapi_recheck.json",
+      "line": 1,
+      "severity": "low",
+      "category": "security",
+      "description": "Overly permissive CORS configuration",
+      "snippet": "*: *"
+    },
+    {
+      "file": "mastris/libflutter.so",
+      "line": 8035,
+      "severity": "info",
+      "category": "security",
+      "description": "Password hashing configuration detected",
+      "snippet": "bcrypt"
+    },
+    {
+      "file": "mastris/libs/arm64-v8a/libflutter.so",
+      "line": 8035,
+      "severity": "info",
+      "category": "security",
+      "description": "Password hashing configuration detected",
+      "snippet": "bcrypt"
+    },
+    {
+      "file": "mastris/m.xapk",
+      "line": 206615,
+      "severity": "info",
+      "category": "security",
+      "description": "Password hashing configuration detected",
+      "snippet": "bcrypt"
+    },
+    {
+      "file": "mastris/xz/config.arm64_v8a.apk",
+      "line": 114436,
+      "severity": "info",
+      "category": "security",
+      "description": "Password hashing configuration detected",
+      "snippet": "bcrypt"
+    },
+    {
+      "file": "mastris/xz64/lib/arm64-v8a/libflutter.so",
+      "line": 8035,
+      "severity": "info",
+      "category": "security",
+      "description": "Password hashing configuration detected",
+      "snippet": "bcrypt"
+    }
+  ],
+  "ai_analysis": {}
+}

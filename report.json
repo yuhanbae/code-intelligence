@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "tool": "CodeIntelligence",
+    "version": "1.0.0",
+    "generated": "2026-11-12T18:33:04.594Z",
+    "engine": "agnes-2.5-flash"
+  },
+  "summary": {
+    "score": 100,
+    "grade": "A",
+    "total_findings": 0,
+    "critical": 0,
+    "medium": 0,
+    "low": 0,
+    "informational": 0,
+    "recommendation": "Codebase is in good shape. Address medium-severity findings during next sprint."
+  },
+  "statistics": {
+    "files": 32,
+    "lines": 7331,
+    "languages": {
+      "other": 17,
+      "markdown": 7,
+      "bash": 1,
+      "python": 7
+    },
+    "dependencies": 0,
+    "commitCount": 0,
+    "branchCount": 0,
+    "hasTests": false,
+    "hasLicense": false,
+    "hasReadme": false
+  },
+  "findings": [],
+  "ai_analysis": {}
+}
