@@ -1,0 +1,25 @@
+{
+  "name": "@yuhanbae/code-intelligence",
+  "version": "1.0.0",
+  "description": "AI-powered code intelligence: security scanning, architecture review, performance analysis, and maintainability assessment using Agnes AI reasoning models.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "codeintel": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "cp src/index.js dist/cli.js",
+    "start": "node dist/cli.js",
+    "test": "node test.js"
+  },
+  "keywords": ["code-analysis", "security-scanner", "ai-review", "code-quality", "mcp-server", "static-analysis"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuhanbae/code-intelligence"
+  },
+  "homepage": "https://yuhanbae.github.io/code-intelligence/",
+  "engines": {
+    "node": ">=18"
+  }
+}
